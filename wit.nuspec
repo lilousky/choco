@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+     <id>wit</id>
+    <version>3.00.7387</version>
+    <packageSourceUrl>https://github.com/Leseratte10/choco/wit/</packageSourceUrl>
+    <owners>Leseratte10</owners>
+   
+    <title>Wiimms ISO Tools (Install)</title>
+    <authors>Dirk Clemens</authors>
+    <projectUrl>https://wit.wiimm.de/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/Leseratte10/choco/master/wit/wit-icon-1.png</iconUrl>
+    <copyright>Copyright (c) 2009-2017 WIT by Dirk Clemens &lt;wiimm@wiimm.de&gt;</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://opensvn.wiimm.de/viewvc/wii/trunk/wiimms-iso-tools/</projectSourceUrl>
+    <docsUrl>https://wit.wiimm.de</docsUrl>
+    <tags>wit wii</tags>
+    <summary>Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers. The toolset consists of the following tools: wit (Wiimms ISO Tool), wwt (Wiimms WBFS Tool), wdf (Wiimms WDF Tool), wfuse (Wiimms FUSE Tool)</summary>
+    <description>Wiimms ISO Tools is a set of command line tools to manipulate Wii and GameCube ISO images and WBFS containers. The toolset consists of the following tools:
+
+* wit (Wiimms ISO Tool):
+
+  This is the main ISO manipulation tool : It can list, analyze, verify, convert, split, join, patch, mix, extract, compose, rename and compare Wii and GameCube images. It also can create and dump different other Wii file formats.
+* wwt (Wiimms WBFS Tool):
+
+  This is the main WBFS manipulation tool (WBFS manager) : It can create, check, repair, verify and clone WBFS files and partitions. It can list, add, extract, remove, rename and recover ISO images as part of a WBFS.
+* wdf (Wiimms WDF Tool):
+
+  wdf is a support tool for WDF, WIA, CISO and GCZ images. It converts (packs and unpacks), compares and dumps WDF and CISO images. Additionally it dumps WIA and GCT image and unpacks WIA images. The default command depends on the program file name (see command descriptions). Usual names are wdf, unwdf, wdf-cat, wdf-cmp and wdf-dump (with or without minus signs). »wdf +CAT« replaces the old tool wdf-cat and »wdf +DUMP« the old tool wdf-dump.  
+* wfuse (Wiimms FUSE Tool):
+
+  Mount a Wii or GameCube image or a WBFS file or partition to a mount point using FUSE (Filesystem in USErspace). Use 'wfuse --umount mountdir' for unmounting. </description>
+ 
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
