@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>wszst</id>
+    <version>1.55.7429</version>
+    <packageSourceUrl>https://github.com/Leseratte10/choco/tree/master/wszst/</packageSourceUrl>
+    <owners>Leseratte10</owners>
+   
+    <title>Wiimms SZS Toolset (Install)</title>
+    <authors>Dirk Clemens</authors>
+    <projectUrl>https://szs.wiimm.de/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/Leseratte10/choco/master/wszst/wszst-icon-1.png</iconUrl>
+    <copyright>Copyright (c) 2011-2013 by Dirk Clemens</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://opensvn.wiimm.de/viewvc/wii/trunk/wiimms-szs-tools/</projectSourceUrl>
+    <docsUrl>https://szs.wiimm.de</docsUrl>
+    <tags>wszst wii</tags>
+    <summary>Wiimms SZS Toolset is a set of command line tools to manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii. </summary>
+    <description>Wiimms SZS Toolset is a set of command line tools to manipulate SZS, U8, WBZ, WU8, PACK, BRRES, BREFF, BREFT, BMG, KCL, KMP, MDL, PAT, TEX, TPL, BTI, main.dol and StaticR.rel files of Mario Kart Wii. The toolset consists of the following tools:
+
+* wszst (Wiimms SZS Tool):
+
+  This is the archive manipulation tool : List, compare, (de-)compress, extract and create SZS, U8, PACK, BRRES, BREFF, BREFT and RARC archives. It is also a wrapper to all other tools.
+* wbmgt (Wiimms BMG Tool):
+
+  This is the main BMG manipulation tool : Convert and patch raw and text BMG (message) files.
+* wimgt (Wiimms Image Tool):
+
+  This is the image manipulation and conversion tool : Extract and convert graphic images. The file formats TPL, TEX, BTI, BREFT and PNG are supported.
+* wkclt (Wiimms KCL Tool):
+
+  This is the main KCL conversion tool : Analyze, modify, export and create KCL and OBJ files.
+* wkmpt (Wiimms KMP Tool):
+
+  This is the main KMP conversion tool : Analyze, modify, export and create (compile) KMP files.
+* wmdlt (Wiimms MDL Tool):
+
+  This is the main MDL conversion tool : Decode raw MDL and encode text MDL files. At the moment, it can only be used for analysis.
+* wpatt (Wiimms PAT Tool):
+
+  This is the main PAT conversion tool : Decode raw PAT and encode text PAT files.
+* wstrt (Wiimms StaticR Tool):
+
+  This is the StaticR.rel and main.dol manipulation tool : Manipulate the 'main.dol' and 'StaticR.rel' files of Mario Kart Wii.
+* wctct (Wiimms CT-CODE Tool):
+
+  This command supports the CTGP Revolution extensions, which allow more than 200 custom tracks in only one image.</description>
+ 
+
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
