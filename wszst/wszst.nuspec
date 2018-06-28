@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wszst</id>
-    <version>1.55.7429</version>
+    <version>1.58.7503</version>
     <packageSourceUrl>https://github.com/Leseratte10/choco/tree/master/wszst/</packageSourceUrl>
     <owners>Leseratte10</owners>
    
