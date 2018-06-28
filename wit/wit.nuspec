@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
      <id>wit</id>
-    <version>3.00.7387.1</version>
+    <version>3.01.7464</version>
     <packageSourceUrl>https://github.com/Leseratte10/choco/tree/master/wit/</packageSourceUrl>
     <owners>Leseratte10</owners>
    
