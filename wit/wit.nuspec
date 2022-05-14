@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
      <id>wit</id>
-    <version>3.01.7464</version>
-    <packageSourceUrl>https://github.com/Leseratte10/choco/tree/master/wit/</packageSourceUrl>
-    <owners>Leseratte10</owners>
+    <version>3.04.8427</version>
+    <packageSourceUrl>https://github.com/Lami-Lemmy/choco/tree/master/wit/</packageSourceUrl>
+    <owners>Leseratte10, LamiLemmy</owners>
    
     <title>Wiimms ISO Tools (Install)</title>
     <authors>Dirk Clemens</authors>
     <projectUrl>https://wit.wiimm.de/</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/Leseratte10/choco/master/wit/wit-icon-1.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/Lami-Lemmy/choco/master/wit/wit-icon-1.png</iconUrl>
     <copyright>Copyright (c) 2009-2017 WIT by Dirk Clemens</copyright>
     <licenseUrl>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
