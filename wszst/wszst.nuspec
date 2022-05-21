@@ -3,9 +3,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>wszst</id>
-    <version>1.58.7503</version>
-    <packageSourceUrl>https://github.com/Leseratte10/choco/tree/master/wszst/</packageSourceUrl>
-    <owners>Leseratte10</owners>
+    <version>2.27.8529</version>
+    <packageSourceUrl>https://github.com/Lami-Lemmy/choco/tree/master/wszst/</packageSourceUrl>
+    <owners>Leseratte10, LamiLemmy</owners>
    
     <title>Wiimms SZS Toolset (Install)</title>
     <authors>Dirk Clemens</authors>
@@ -46,7 +46,10 @@
   This is the StaticR.rel and main.dol manipulation tool : Manipulate the 'main.dol' and 'StaticR.rel' files of Mario Kart Wii.
 * wctct (Wiimms CT-CODE Tool):
 
-  This command supports the CTGP Revolution extensions, which allow more than 200 custom tracks in only one image.</description>
+  This command supports the CTGP Revolution extensions, which allow more than 200 custom tracks in only one image.
+* wlect (Wiimms LE-CODE Tool):
+
+  This command is the manager of the LE-CODE extension for Mario Kart Wii.</description>
  
 
   </metadata>
