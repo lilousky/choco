@@ -1,1 +1,1 @@
-A few test projects for [Chocolatey](https://chocolatey.org). 
+Chocolatey packages for [Wiimm's tools](https://wiimm.de/). 
